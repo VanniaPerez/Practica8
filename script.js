@@ -4,8 +4,9 @@ function sumar(){
     var num2;
     num2=document.calc.txtnumero2.value;
     var opc;
-    opc=eval(num1) + eval(num2);
+    opc= eval(num1) + eval(num2);
     document.calc.resultado.value=opc;
+    alert("El resultado de es:"+ opc);
 }
 function Resta(){
     var num1;
@@ -15,6 +16,7 @@ function Resta(){
     var opc1;
     opc1=eval(num1) - eval(num2);
     document.calc.resultado1.value=opc1;
+    alert("El resultado de es:"- pc);
 }
 function Multiplicacion(){
     var num1;
@@ -24,6 +26,7 @@ function Multiplicacion(){
     var opc2;
     opc2=eval(num1) * eval(num2);
     document.calc.resultado2.value=opc2;
+    alert("El resultado de es:"* opc);
 }
 function Divicion(){
     var num1;
@@ -33,4 +36,5 @@ function Divicion(){
     var opc3;
     opc3=eval(num1) / eval(num2);
     document.calc.resultado3.value=opc3;
+    alert("El resultado de es:"/ opc);
 }
