@@ -16,7 +16,7 @@ function Resta(){
     var opc1;
     opc1=eval(num1) - eval(num2);
     document.calc.resultado1.value=opc1;
-    alert("El resultado de es:"- pc);
+    alert("El resultado de es:"- opc)1;
 }
 function Multiplicacion(){
     var num1;
@@ -26,7 +26,7 @@ function Multiplicacion(){
     var opc2;
     opc2=eval(num1) * eval(num2);
     document.calc.resultado2.value=opc2;
-    alert("El resultado de es:"* opc);
+    alert("El resultado de es:" * opc2);
 }
 function Divicion(){
     var num1;
@@ -36,5 +36,5 @@ function Divicion(){
     var opc3;
     opc3=eval(num1) / eval(num2);
     document.calc.resultado3.value=opc3;
-    alert("El resultado de es:"/ opc);
+    alert("El resultado de es:"/ opc3);
 }
